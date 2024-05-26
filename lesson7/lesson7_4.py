@@ -4,7 +4,7 @@ import pyinputplus as pipy
 while(True):
 
     min:int = 1
-    max:int = 10
+    max:int = 100
     count:int = 0
 
     target:int = random.randint(min,max)
