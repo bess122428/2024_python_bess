@@ -1,5 +1,5 @@
 #內建的變數__name__
-import tools
+import health
 
 def main()->None:
     name = input("Please enter your name:")
@@ -8,8 +8,8 @@ def main()->None:
     print(f"Your name is {name}")
     print(f"Your height is {height} cm")
     print(f"Your weight is {weight} kg")
-    bmi=tools.cal_bmi(height,weight)
-    rate=tools.get_status(bmi)
+    bmi=health.cal_bmi(height,weight)
+    rate=health.get_status(bmi)
     print(f"Your BMI value is {round(bmi,ndigits = 2)}")
     print(f"Your BMI range is {rate}.")
 
